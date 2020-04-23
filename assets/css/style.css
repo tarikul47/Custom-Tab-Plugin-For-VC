@@ -1,0 +1,185 @@
+
+
+/*
+==================
+Common CSS
+==================
+*/
+@media (min-width: 1200px) {
+	.wrapper-tab-section .container, .wrapper-tab-section .container-lg, 
+	.wrapper-tab-section .container-md, .wrapper-tab-section .container-sm, 
+	.wrapper-tab-section .container-xl {
+	    max-width: 1200px;
+	}
+}
+.wrapper-tab-section {
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.wrapper-tab-section a:hover {
+	text-decoration: none;
+}
+
+/*
+======================
+Tabs Area
+======================
+*/
+#nav-tab1 .nav-item {
+	text-align: center;
+}
+
+.tab-each-text {
+	font-weight: 700;
+	font-size: 17px;
+	color: #4B5B66;
+	margin-top: 23px;
+}
+#nav-tab1.nav-tabs .nav-link.active .tab-each-text {
+	color: #2D89C9;
+}
+#nav-tab1.nav-tabs {
+    border-bottom: 2px solid #BCDCF3;
+}
+#nav-tab1.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+#nav-tab1.nav-tabs .nav-item.show .nav-link, 
+#nav-tab1.nav-tabs .nav-link.active {
+    
+}
+#nav-tab1.nav-tabs .nav-link:focus, 
+#nav-tab1.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+#nav-tab1.nav-tabs .nav-link.active path {
+	fill: #2D89C9;
+}
+#nav-tab1.nav-tabs .nav-link.active {
+	position: relative;
+	border: 2px solid transparent;
+}
+#nav-tab1.nav-tabs .nav-link.active:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	height: 5px;
+	background: #2D89C9;
+	border-radius: 10px;
+}
+.nav-item .icon img {
+	display: none;
+}
+.nav-item.active .icon img:nth-child(2) {
+	display: block;
+	margin: 0 auto;
+}
+.nav-item.active .icon img:nth-child(1) {
+	display: none;
+}
+.nav-item .icon img:nth-child(1) {
+	display: block;
+	margin: 0 auto;
+}
+
+.tab-btn {
+	margin-top: 36px;
+	position: relative;
+	z-index: 999;
+}
+.tab-btn a {
+	display: inline-block;
+	padding: 23px 43px;
+	background: #2D89C9;
+	border-radius: 6px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: .3s;
+}
+.tab-btn a:hover {
+	opacity: .8;
+}
+
+
+
+.tabs-all-items {
+	background: url("../images/shape.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*Tab Content*/
+/*.tab-content>.active {
+	opacity: 1;
+}*/
+.tab-content-area .tab-content {
+	position: relative;
+}
+.tab-content-area .row {
+	justify-content: center;
+	align-items: center;
+}
+.tab-content-area img {
+	/*max-width: 100%;*/
+}
+
+
+
+/*.tab-content-item {
+    padding-left: 100px;
+}*/
+.tab-content-item h3 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+	color: #090909;
+}
+.tab-content-item p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+
+
+
+.nav-tab2 {
+    border: 0;
+    /*position: absolute;
+    top: calc(50% + 35px);
+    left: 100px;
+    bottom: 0;*/
+}
+.nav-tab2.nav-tabs {
+	border: 0;
+}
+.nav-tab2.nav-tabs .nav-item.show .nav-link, 
+.nav-tab2.nav-tabs .nav-link.active {
+    border: 0;
+    background: #2D89C9;
+    border-radius: 100%;
+}
+.nav-tab2.nav-tabs a {
+    width: 10px;
+    height: 10px;
+    background: #BACFDE;
+    border: 0;
+    margin: 3px;
+    padding: 0;
+    border-radius: 100%;
+}
+.i1 {
+	fill: #4B5B66;
+}
+
+
